@@ -1,0 +1,42 @@
+@import url("https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Public+Sans:wght@600&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Poppins:wght@400&display=swap");
+body {
+  margin: 0;
+  line-height: normal;
+}
+:root {
+  /* fonts */
+  --body-regular-500: Inter;
+  --paragraph-regular: Poppins;
+  --display: "Public Sans";
+
+  /* font sizes */
+  --body-regular-500-size: 16px;
+  --display-size: 52px;
+  --body-small-400-size: 14px;
+
+  /* Colors */
+  --color-darkblue: #3a0ca3;
+  --gray-white: #fff;
+  --gray-100: #cfd3d6;
+  --gray-400: #889099;
+  --primary-700: #2c3a61;
+  --primary-400: #6e80b4;
+  --primary-100: #dbdfec;
+  --primary-50: #edeff6;
+  --primary-primary-500: #2aa754;
+
+  /* Gaps */
+  --gap-base: 16px;
+  --gap-5xs: 8px;
+  --gap-xs: 12px;
+
+  /* Paddings */
+  --padding-xs: 12px;
+  --padding-5xl: 24px;
+
+  /* Border radiuses */
+  --br-9xs: 4px;
+  --br-6xs-9: 6.9px;
+}
